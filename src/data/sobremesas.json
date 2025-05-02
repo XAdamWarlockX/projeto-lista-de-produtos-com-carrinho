@@ -1,0 +1,65 @@
+[
+    {
+        "imagem": "image-waffle-desktop.jpg",
+        "tipo": "Waffle",
+        "nome": "Waffle com frutas vermelhas",
+        "valor": 6.50,
+        "id": 1
+    },
+    {
+        "imagem": "image-creme-brulee-desktop.jpg",
+        "tipo": "Crème Brûlée",
+        "nome": "Fava de baunilha Crème Brûlée",
+        "valor": 7.00,
+        "id": 2
+    },
+    {
+        "imagem": "image-macaron-desktop.jpg",
+        "tipo": "Macaron",
+        "nome": "Cinco unidades de Macaron",
+        "valor": 8.00,
+        "id": 3
+    },
+    {
+        "imagem": "image-tiramisu-desktop.jpg",
+        "tipo": "Tiramisu",
+        "nome": "Tiramisu clássico",
+        "valor": 5.50,
+        "id": 4
+    },
+    {
+        "imagem": "image-baklava-desktop.jpg",
+        "tipo": "Baklava",
+        "nome": "Baklava de pistache",
+        "valor": 4.00,
+        "id": 5
+    },
+    {
+        "imagem": "image-meringue-desktop.jpg",
+        "tipo": "Torta",
+        "nome": "Torta de limão merengue",
+        "valor": 5.00,
+        "id": 6
+    },
+    {
+        "imagem": "image-cake-desktop.jpg",
+        "tipo": "Bolo",
+        "nome": "Bolo de veludo vermelho",
+        "valor": 4.50,
+        "id": 7
+    },
+    { 
+        "imagem": "image-brownie-desktop.jpg",
+        "tipo": "Brownie",
+        "nome": "Brownie de caramelo salgado",
+        "valor": 5.50,
+        "id": 8
+    },
+    { 
+        "imagem": "image-panna-cotta-desktop.jpg",
+        "tipo": "PannaCotta",
+        "nome": "Panna Cotta de baunilha",
+        "valor": 6.50,
+        "id": 9
+    }
+]
