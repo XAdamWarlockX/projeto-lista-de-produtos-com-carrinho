@@ -24,14 +24,14 @@ export const Sobremesa = (({ imagem, nome, tipo, valor, adicionarAoCarrinho, qua
     return (
         <CardSobremesa>
             <DivSobremesa >
-                <img src={`src/assets/images/${imagem}`} alt={nome} />
+                <img src={`/images/${imagem}`} alt={nome} />
                 <DivAdd>
                     {btns === false ?
                         <BotaoAdd onClick={() => {
                             pegarInfosSobremesa()
                             alterarBtn()
                         }}>
-                            <img src={`src/assets/images/icon-add-to-cart.svg`} alt="+" />
+                            <img src={`/images/icon-add-to-cart.svg`} alt="+" />
                             <p>Add ao Carrinho</p>
                         </BotaoAdd>
                         :

@@ -36,7 +36,7 @@ export const Carrinho = ({ carrinho, sobremesas, removerItem, contadorDeItens, q
                                     <RomoverItem onClick={() => {
                                         removerItem(item.nome)
                                     }}>
-                                        <img src={`src/assets/images/icon-remove-item.svg`} alt="x" />
+                                        <img src={`/images/icon-remove-item.svg`} alt="x" />
                                     </RomoverItem>
                                 </Item>
                             )
@@ -46,7 +46,7 @@ export const Carrinho = ({ carrinho, sobremesas, removerItem, contadorDeItens, q
                             <p>${valorTotal.toFixed(2)}</p>
                         </DivValorPedido>
                         <NotaEcologica>
-                            <img src={`src/assets/images/icon-carbon-neutral.svg`} alt="Icone carbono neutro" />
+                            <img src={`/images/icon-carbon-neutral.svg`} alt="Icone carbono neutro" />
                             <p>Esta é uma entrega <strong>neutra em carbono</strong></p>
                         </NotaEcologica>
                         <BotaoConfimar onClick={() => {

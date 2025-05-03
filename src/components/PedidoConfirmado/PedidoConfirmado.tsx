@@ -9,7 +9,7 @@ export const PedidoConfirmado = ({ carrinho, sobremesas, pedidoConfirmado, quant
             <ContainerPedido>
                 <DivPedidoConfirmado>
                     <h1>Pedido Confirmado</h1>
-                    <img src={`src/assets/images/icon-order-confirmed.svg`} alt="Icone Confirmado" />
+                    <img src={`/images/icon-order-confirmed.svg`} alt="Icone Confirmado" />
                 </DivPedidoConfirmado>
 
                 <p>Esperamos que você goste da sua comida!</p>
@@ -24,7 +24,7 @@ export const PedidoConfirmado = ({ carrinho, sobremesas, pedidoConfirmado, quant
                             return (
                                 <Item key={index}>
                                     <div>
-                                        <img src={`src/assets/images/${item.imagem}`} alt="Sobremesa" />
+                                        <img src={`/images/${item.imagem}`} alt="Sobremesa" />
                                         <div>
                                             <h2>{item.nome}</h2>
                                             <Infos>
