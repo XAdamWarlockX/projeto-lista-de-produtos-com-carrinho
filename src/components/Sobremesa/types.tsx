@@ -9,7 +9,7 @@ export interface InfosSobremesa {
     adicionarAoCarrinho: (sobremesa: Itens) => void
     quantidadeDeSobremesas: number
     contadorDeItens: number
-    setQuantidadeDeItens: (novaValor: number) => void
+    altQuantidadeDeItens: (novaValor: number) => void
     setContadorDeItens: (novoValor: number) => void
     btns: boolean
     alterarBtn: () => void

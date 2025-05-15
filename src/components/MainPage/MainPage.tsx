@@ -20,7 +20,6 @@ export const MainPage = () => {
         // Array(9) [1,1,3,1,1,1,1,1,1]
     )
 
-
     // Biblioteca React Reponsive
     // Variavel que armazena um largura e com ela você pode renderizar um elemento quando essa largura for atingida
     const notaParaMobile: boolean = useMediaQuery({ query: '(max-width: 1300px)' })
@@ -107,7 +106,7 @@ export const MainPage = () => {
                                 id={sobremesa.id}
                                 adicionarAoCarrinho={adicionarAoCarrinho}
                                 quantidadeDeSobremesas={quantidadeDeSobremesas[index]}
-                                setQuantidadeDeItens={(novaQtd) => alterarQuantidade(index, novaQtd)}
+                                altQuantidadeDeItens={(novaQtd) => alterarQuantidade(index, novaQtd)}
                                 contadorDeItens={contadorDeItens}
                                 setContadorDeItens={setContadorDeItens}
                                 btns={btns[index]}

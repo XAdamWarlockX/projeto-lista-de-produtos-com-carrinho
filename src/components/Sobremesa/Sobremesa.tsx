@@ -1,20 +1,19 @@
 import { CardSobremesa, DivSobremesa, DivAdd, BotaoAdd, DivQuantidade, BotoesQuantidade, DivInfos } from './styles'
 import { InfosSobremesa } from './types'
 
-export const Sobremesa = (({ imagem, nome, tipo, valor, adicionarAoCarrinho, quantidadeDeSobremesas, setQuantidadeDeItens, contadorDeItens, setContadorDeItens, btns, alterarBtn }: InfosSobremesa) => {
-    // const [quantidadeDeItens, setQuantidadeDeItens] = useState<number>(1)
+export const Sobremesa = (({ imagem, nome, tipo, valor, adicionarAoCarrinho, quantidadeDeSobremesas, altQuantidadeDeItens, contadorDeItens, setContadorDeItens, btns, alterarBtn }: InfosSobremesa) => {
 
     const maisUm = (): void => {
         setContadorDeItens(contadorDeItens + 1)
-        setQuantidadeDeItens(quantidadeDeSobremesas + 1)
+        altQuantidadeDeItens(quantidadeDeSobremesas + 1)
     }
 
-    const menosUm = (): number | void=> {
+    const menosUm = (): number | void => {
         if (quantidadeDeSobremesas <= 1) {
             return 1
         }
         setContadorDeItens(contadorDeItens - 1)
-        setQuantidadeDeItens(quantidadeDeSobremesas - 1)
+        altQuantidadeDeItens(quantidadeDeSobremesas - 1)
     }
 
     const pegarInfosSobremesa = (): void => {

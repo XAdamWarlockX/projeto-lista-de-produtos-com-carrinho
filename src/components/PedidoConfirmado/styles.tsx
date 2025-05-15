@@ -6,7 +6,6 @@ export const Sobreposição = styled.div<{ pedidoConfirmado: string }>`
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-    
     top: 0;
     padding-top: 120px;
     width: 100%;

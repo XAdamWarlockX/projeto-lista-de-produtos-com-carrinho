@@ -40,7 +40,7 @@ export const PedidoConfirmado = ({ carrinho, sobremesas, pedidoConfirmado, quant
                     </ul>
 
                     <ValorPedido>
-                        <p>Valor total do pedido</p>
+                        <p>Valor total do pedido:</p>
                         <p>${valorTotal.toFixed(2)}</p>
                     </ValorPedido>
                 </div>
